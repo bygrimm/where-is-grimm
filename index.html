@@ -10,10 +10,8 @@
 <body>
 <div class="card" id="app">
 
-  <button class="admin-toggle" id="adminToggle" title="toggle edit mode">✦</button>
-
   <div class="header">
-    <div class="today-label" id="labelDisplay">— today on —</div>
+    <div class="today-label" id="labelDisplay">— today i'm on —</div>
     <div class="current-blogs" id="currentBlogs"></div>
     <div class="date" id="dateDisplay">AUGUST 31 . 2026</div>
   </div>
@@ -25,77 +23,6 @@
   <div class="footer">
     <div class="tagline" id="taglineDisplay"><span class="accent">&</span> new bogd</div>
     <div class="note" id="noteDisplay">updated daily — check before reaching out</div>
-  </div>
-
-  <div class="admin-panel" id="adminPanel">
-
-    <div class="admin-tabs">
-      <button class="admin-tab active" data-tab="content">content</button>
-      <button class="admin-tab" data-tab="design">design</button>
-    </div>
-
-    <!-- CONTENT TAB -->
-    <div class="admin-section active" id="tabContent">
-      <label>active blogs</label>
-      <div class="hint" style="margin-bottom:0.3rem;">click blogs in the list above to toggle them on/off</div>
-
-      <label>date</label>
-      <input type="text" id="dateInput" placeholder="e.g. AUGUST 31 . 2026">
-
-      <label>section label</label>
-      <input type="text" id="listLabelInput" placeholder="BLOGS">
-
-      <div class="section-title">blogs</div>
-      <div id="blogEditor"></div>
-
-      <div class="section-title">text</div>
-      <label>today label</label>
-      <input type="text" id="labelInput" placeholder="— today on —">
-      <label>footer tagline</label>
-      <input type="text" id="taglineInput" placeholder="& new bogd">
-      <label>footer note</label>
-      <input type="text" id="noteInput" placeholder="updated daily — check before reaching out">
-    </div>
-
-    <!-- DESIGN TAB -->
-    <div class="admin-section" id="tabDesign">
-      <div class="section-title">colors</div>
-
-      <label>background</label><div class="color-row"><input type="color" id="bgColor"><input type="text" id="bgColorText"></div>
-      <label>card background</label><div class="color-row"><input type="color" id="cardBg"><input type="text" id="cardBgText"></div>
-      <label>card border</label><div class="color-row"><input type="color" id="cardBorder"><input type="text" id="cardBorderText"></div>
-      <label>accent</label><div class="color-row"><input type="color" id="accentColor"><input type="text" id="accentColorText"></div>
-      <label>text</label><div class="color-row"><input type="color" id="textColor"><input type="text" id="textColorText"></div>
-      <label>muted text</label><div class="color-row"><input type="color" id="mutedColor"><input type="text" id="mutedColorText"></div>
-      <label>dim text</label><div class="color-row"><input type="color" id="dimColor"><input type="text" id="dimColorText"></div>
-
-      <div class="section-title">active blog gradient</div>
-      <label>gradient start</label><div class="color-row"><input type="color" id="gradStart"><input type="text" id="gradStartText"></div>
-      <label>gradient end</label><div class="color-row"><input type="color" id="gradEnd"><input type="text" id="gradEndText"></div>
-
-      <div class="section-title">status colors</div>
-      <label>active (badge)</label><div class="color-row"><input type="color" id="stActive"><input type="text" id="stActiveText"></div>
-      <label>high</label><div class="color-row"><input type="color" id="stHigh"><input type="text" id="stHighText"></div>
-      <label>building</label><div class="color-row"><input type="color" id="stBuilding"><input type="text" id="stBuildingText"></div>
-      <label>sporadic</label><div class="color-row"><input type="color" id="stSporadic"><input type="text" id="stSporadicText"></div>
-      <label>inactive / main</label><div class="color-row"><input type="color" id="stInactive"><input type="text" id="stInactiveText"></div>
-
-      <div class="section-title">fonts & sizing</div>
-      <label>body font</label>
-      <select id="bodyFont"><option value="Inter">Inter</option><option value="Georgia">Georgia</option><option value="Times New Roman">Times New Roman</option><option value="Arial">Arial</option><option value="Helvetica">Helvetica</option><option value="system-ui">system-ui</option></select>
-      <label>mono font</label>
-      <select id="monoFont"><option value="IBM Plex Mono">IBM Plex Mono</option><option value="Courier New">Courier New</option><option value="SF Mono">SF Mono</option><option value="monospace">monospace</option></select>
-      <label>header size</label><input type="text" id="hdrSize" placeholder="2.0rem">
-      <label>body size</label><input type="text" id="bodySize" placeholder="0.85rem">
-      <label>small size</label><input type="text" id="smallSize" placeholder="0.6rem">
-      <label>card width</label><input type="number" id="cardWidth" placeholder="520" min="300" max="800">
-    </div>
-
-    <div class="admin-actions">
-      <button id="tokenBtn" class="save-btn" style="flex:0 0 auto;padding:0.4rem 0.5rem;font-size:0.5rem;">set token</button>
-      <button id="saveBtn" class="save-btn">save to github</button>
-    </div>
-    <div class="status-msg" id="statusMsg"></div>
   </div>
 
 </div>
