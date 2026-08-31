@@ -1,0 +1,98 @@
+{
+  "active": [
+    "willa-jean",
+    "syght"
+  ],
+  "date": "AUGUST 31 . 2026",
+  "blog_list_label": "BLOGS",
+  "footer_tagline": "& new blogs will go here!",
+  "footer_note": "updated daily — check before reaching out!",
+  "blogs": [
+    {
+      "id": "gospul",
+      "url": "GOSPUL",
+      "muse": "cecily novak",
+      "status": "main",
+      "status_color": "inactive",
+      "star": false,
+      "link": "https://gospul.tumblr.com"
+    },
+    {
+      "id": "willa-jean",
+      "url": "WILLA-JEAN",
+      "muse": "willa-jean winslow",
+      "status": "high",
+      "status_color": "active",
+      "star": true,
+      "link": "https://willa-jean.tumblr.com"
+    },
+    {
+      "id": "syght",
+      "url": "SYGHT",
+      "muse": "nora özgen",
+      "status": "building",
+      "status_color": "active",
+      "star": true,
+      "link": "https://syght.tumblr.com"
+    },
+    {
+      "id": "godbrks",
+      "url": "GODBRKS",
+      "muse": "wells stutler",
+      "status": "sporadic",
+      "status_color": "inactive",
+      "star": false,
+      "link": "https://godbrks.tumblr.com"
+    },
+    {
+      "id": "forgde",
+      "url": "FORGDE",
+      "muse": "finnick harding",
+      "status": "building",
+      "status_color": "active",
+      "star": true,
+      "link": "https://forgde.tumblr.com"
+    },
+    {
+      "id": "iconik",
+      "url": "ICONIK",
+      "muse": "dez delacruz",
+      "status": "semi",
+      "status_color": "inactive",
+      "star": false,
+      "link": "https://iconik.tumblr.com"
+    },
+    {
+      "id": "ensane",
+      "url": "ENSANE",
+      "muse": "oc multimuse",
+      "status": "semi",
+      "status_color": "inactive",
+      "star": false,
+      "link": "https://ensane.tumblr.com"
+    }
+  ],
+  "theme": {
+    "today_label": "— today on —",
+    "bg_color": "#0a0a0a",
+    "card_bg": "#0f120f",
+    "card_border": "#1a221a",
+    "accent_color": "#737434",
+    "text_color": "#c8d4c8",
+    "text_muted": "#898b6f",
+    "text_dim": "#6f795d",
+    "body_font": "Arial",
+    "mono_font": "monospace",
+    "active_gradient_start": "#7f8c3b",
+    "active_gradient_end": "#51581d",
+    "status_active": "#647623",
+    "status_high": "#2f832f",
+    "status_building": "#40641b",
+    "status_sporadic": "#687934",
+    "status_inactive": "#87876e",
+    "card_width": 520,
+    "header_size": "2.0rem",
+    "body_size": "0.85rem",
+    "small_size": "0.6rem"
+  }
+}
