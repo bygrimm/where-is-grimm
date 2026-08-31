@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@300;400;600;700&family=Jacquarda+Bastarda+9&display=swap');
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
   :root {
@@ -22,8 +24,6 @@
     --body-size: 0.85rem;
     --small-size: 0.6rem;
   }
-
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@300;400;600;700&family=Jacquarda+Bastarda+9&display=swap');
 
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(12px); }
