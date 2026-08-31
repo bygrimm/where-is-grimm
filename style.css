@@ -250,6 +250,7 @@
   .edit-mode .blog-item { cursor: pointer; }
   .edit-mode .blog-item:hover { background: color-mix(in srgb, var(--accent) 8%, transparent); }
   .edit-mode .blog-item.active { border-left-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); padding-left: 2.5rem; }
+  .edit-mode .url-link { pointer-events: none; cursor: default; }
 
   .blog-item:hover .url-text { opacity: 0.85; }
 
