@@ -186,6 +186,22 @@ function render() {
     });
   });
 
+function timeAgo(dateStr) {
+  if (!dateStr) return '';
+  const then = new Date(dateStr + 'T00:00:00');
+  if (isNaN(then)) return '';
+  const now = new Date();
+  const ms = now - then;
+  const days = Math.floor(ms / 86400000);
+  if (days < 0) return '0 days';
+  if (days === 0) return 'today';
+  if (days < 7) return `${days} day${days === 1 ? '' : 's'} ago`;
+  const weeks = Math.floor(days / 7);
+  if (days < 30) return `${weeks} week${weeks === 1 ? '' : 's'} ago`;
+  const months = Math.floor(days / 30);
+  return `${months} month${months === 1 ? '' : 's'} ago`;
+}
+
   // blog list display
   blogList.innerHTML = '';
   state.blogs.forEach((blog, index) => {
@@ -197,12 +213,13 @@ function render() {
 
     const statusClass = isActive ? 'active' : blog.status;
     const statusLabel = isActive ? '● today' : blog.status;
+    const lastActive = isActive ? 'today' : timeAgo(blog.last_active);
 
     li.innerHTML = `
       <div class="url-block">
         ${editMode
-          ? `<span class="url-link"><div class="url-text"><span class="accent">${blog.url.charAt(0)}</span>${blog.url.slice(1)}</div><div class="muse-text">${blog.muse}</div></span>`
-          : `<a href="${blog.link}" target="_blank" rel="noopener" class="url-link"><div class="url-text"><span class="accent">${blog.url.charAt(0)}</span>${blog.url.slice(1)}</div><div class="muse-text">${blog.muse}</div></a>`
+          ? `<span class="url-link"><div class="url-text"><span class="accent">${blog.url.charAt(0)}</span>${blog.url.slice(1)}</div><div class="muse-text">${blog.muse}</div><div class="last-active">❀˖  last active <b>${lastActive}</b></div></span>`
+          : `<a href="${blog.link}" target="_blank" rel="noopener" class="url-link"><div class="url-text"><span class="accent">${blog.url.charAt(0)}</span>${blog.url.slice(1)}</div><div class="muse-text">${blog.muse}</div><div class="last-active">❀˖  last active <b>${lastActive}</b></div></a>`
         }
       </div>
       <span class="status-badge ${statusClass}">${statusLabel}</span>
@@ -244,6 +261,38 @@ async function loadData() {
   }
 }
 
+function stampActivity() {
+  if (!state) return;
+  const today = new Date();
+  const iso = today.toISOString().slice(0, 10);
+  // last_active stamp on each currently-active blog
+  state.active.forEach(id => {
+    const blog = state.blogs.find(b => b.id === id);
+    if (blog) blog.last_active = iso;
+  });
+  // stats tracking
+  if (!state.stats) {
+    state.stats = {
+      total_days_recorded: 0,
+      blog_active_days: {},
+      history: {}
+    };
+    state.blogs.forEach(b => { state.stats.blog_active_days[b.id] = 0; });
+  }
+  if (!state.stats.history[iso]) {
+    state.stats.history[iso] = [];
+    state.stats.total_days_recorded += 1;
+    state.active.forEach(id => { state.stats.blog_active_days[id] = (state.stats.blog_active_days[id] || 0) + 1; });
+  }
+  state.stats.history[iso] = state.active.slice();
+  // build a running totals map in case counts got out of sync
+  state.stats.blog_active_days = {};
+  state.blogs.forEach(b => { state.stats.blog_active_days[b.id] = 0; });
+  Object.values(state.stats.history).forEach(day => {
+    day.forEach(id => { state.stats.blog_active_days[id] += 1; });
+  });
+}
+
 async function saveToGitHub() {
   if (!ghToken) {
     ghToken = prompt('Enter your GitHub token (repo scope):');
@@ -256,6 +305,9 @@ async function saveToGitHub() {
   state.theme.today_label = labelInput.value.trim();
   state.footer_tagline = taglineInput.value.trim();
   state.footer_note = noteInput.value.trim();
+
+  // stamp last-active + stats history for whatever blogs are active today
+  stampActivity();
 
   const design = readDesignFields();
   Object.assign(state.theme, design);

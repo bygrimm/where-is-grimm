@@ -201,6 +201,16 @@
     color: var(--text-dim);
     margin-top: 0.1rem;
   }
+  .blog-item .last-active {
+    font-size: calc(var(--body-size) * 0.68);
+    color: var(--text-muted);
+    margin-top: 0.15rem;
+    letter-spacing: 0.04em;
+  }
+  .blog-item .last-active b {
+    color: var(--accent);
+    font-weight: 600;
+  }
 
   .url-link {
     text-decoration: none;

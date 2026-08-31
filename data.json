@@ -16,7 +16,8 @@
       "status": "main",
       "status_color": "inactive",
       "star": false,
-      "link": "https://gospul.tumblr.com"
+      "link": "https://gospul.tumblr.com",
+      "last_active": "2026-08-20"
     },
     {
       "id": "willa-jean",
@@ -25,7 +26,8 @@
       "status": "high",
       "status_color": "active",
       "star": true,
-      "link": "https://willa-jean.tumblr.com"
+      "link": "https://willa-jean.tumblr.com",
+      "last_active": "2026-08-31"
     },
     {
       "id": "syght",
@@ -34,7 +36,8 @@
       "status": "building",
       "status_color": "active",
       "star": true,
-      "link": "https://syght.tumblr.com"
+      "link": "https://syght.tumblr.com",
+      "last_active": "2026-08-31"
     },
     {
       "id": "godbrks",
@@ -43,7 +46,8 @@
       "status": "sporadic",
       "status_color": "inactive",
       "star": false,
-      "link": "https://godbrks.tumblr.com"
+      "link": "https://godbrks.tumblr.com",
+      "last_active": "2026-08-10"
     },
     {
       "id": "forgde",
@@ -52,7 +56,8 @@
       "status": "building",
       "status_color": "active",
       "star": true,
-      "link": "https://forgde.tumblr.com"
+      "link": "https://forgde.tumblr.com",
+      "last_active": "2026-08-31"
     },
     {
       "id": "iconik",
@@ -61,7 +66,8 @@
       "status": "semi",
       "status_color": "inactive",
       "star": false,
-      "link": "https://iconik.tumblr.com"
+      "link": "https://iconik.tumblr.com",
+      "last_active": "2026-07-28"
     },
     {
       "id": "ensane",
@@ -70,7 +76,8 @@
       "status": "semi",
       "status_color": "inactive",
       "star": false,
-      "link": "https://ensane.tumblr.com"
+      "link": "https://ensane.tumblr.com",
+      "last_active": "2026-07-15"
     }
   ],
   "theme": {
@@ -95,5 +102,24 @@
     "header_size": "2.0rem",
     "body_size": "0.85rem",
     "small_size": "0.6rem"
+  },
+  "stats": {
+    "total_days_recorded": 1,
+    "blog_active_days": {
+      "gospul": 0,
+      "willa-jean": 1,
+      "syght": 1,
+      "godbrks": 0,
+      "forgde": 1,
+      "iconik": 0,
+      "ensane": 0
+    },
+    "history": {
+      "2026-08-31": [
+        "willa-jean",
+        "syght",
+        "forgde"
+      ]
+    }
   }
 }
