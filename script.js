@@ -199,10 +199,10 @@ function render() {
 
     li.innerHTML = `
       <div class="url-block">
-        <a href="${blog.link}" target="_blank" rel="noopener" class="url-link">
-          <div class="url-text"><span class="accent">${blog.url.charAt(0)}</span>${blog.url.slice(1)}</div>
-          <div class="muse-text">${blog.muse}</div>
-        </a>
+        ${editMode
+          ? `<span class="url-link"><div class="url-text"><span class="accent">${blog.url.charAt(0)}</span>${blog.url.slice(1)}</div><div class="muse-text">${blog.muse}</div></span>`
+          : `<a href="${blog.link}" target="_blank" rel="noopener" class="url-link"><div class="url-text"><span class="accent">${blog.url.charAt(0)}</span>${blog.url.slice(1)}</div><div class="muse-text">${blog.muse}</div></a>`
+        }
       </div>
       <span class="status-badge ${statusClass}">${statusLabel}</span>
       ${isActive ? '<span class="star">★</span>' : ''}
