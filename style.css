@@ -23,7 +23,7 @@
     --small-size: 0.6rem;
   }
 
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@300;400;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@300;400;600;700&family=Jacquarda+Bastarda+9&display=swap');
 
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(12px); }
@@ -121,11 +121,12 @@
     font-size: var(--hdr-size);
     font-weight: 700;
     letter-spacing: 0.05em;
+    font-family: 'Jacquarda Bastarda 9', serif;
   }
   .header .ampersand {
     font-size: calc(var(--hdr-size) * 0.7);
     color: var(--accent);
-    font-family: var(--mono-font);
+    font-family: 'Jacquarda Bastarda 9', serif;
     opacity: 0.7;
     display: flex;
     align-items: center;
