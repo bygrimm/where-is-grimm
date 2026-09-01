@@ -37,6 +37,14 @@
     0%, 100% { opacity: 0.7; }
     50% { opacity: 1; }
   }
+  @keyframes cardGlow {
+    0%, 100% { box-shadow: 0 0 54px -16px rgba(115, 116, 52, 0.5), 0 0 140px -36px rgba(127, 140, 59, 0.34); }
+    50% { box-shadow: 0 0 62px -14px rgba(115, 116, 52, 0.6), 0 0 160px -30px rgba(127, 140, 59, 0.42); }
+  }
+  @keyframes glowPulse {
+    0%, 100% { opacity: 0.65; }
+    50% { opacity: 0.8; }
+  }
 
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
@@ -56,6 +64,19 @@
     justify-content: center;
     padding: 2rem;
   }
+  body::before {
+    content: '';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: min(92vw, 780px);
+    height: min(92vh, 780px);
+    transform: translate(-50%, -50%);
+    background: radial-gradient(closest-side, rgba(115, 116, 52, 0.16), transparent 72%);
+    pointer-events: none;
+    z-index: 0;
+    animation: glowPulse 12s ease-in-out infinite;
+  }
 
   .card {
     background: var(--card-bg);
@@ -64,7 +85,8 @@
     width: 100%;
     padding: 2.5rem 2rem 2rem;
     position: relative;
-    animation: fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+    z-index: 1;
+    animation: fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both, cardGlow 10s ease-in-out infinite;
   }
 
   .card::before, .card::after {
