@@ -110,8 +110,7 @@ function render() {
 
 async function loadData() {
   try {
-    const cacheBust = `_=${Date.now()}`;
-    const url = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/${DATA_PATH}?${cacheBust}`;
+    const url = `${DATA_PATH}?v=${Date.now()}`;
     const resp = await fetch(url);
     if (!resp.ok) throw new Error('Failed to load data');
     state = await resp.json();
