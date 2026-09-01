@@ -1,8 +1,6 @@
 {
   "active": [
-    "willa-jean",
     "syght",
-    "forgde",
     "godbrks"
   ],
   "date": "AUGUST 31 . 2026",
@@ -25,7 +23,7 @@
       "url": "WILLA-JEAN",
       "muse": "willa-jean winslow",
       "status": "high",
-      "status_color": "active",
+      "status_color": "inactive",
       "star": true,
       "link": "https://willa-jean.tumblr.com",
       "last_active": "2026-08-31"
@@ -55,7 +53,7 @@
       "url": "FORGDE",
       "muse": "finnick harding",
       "status": "building",
-      "status_color": "active",
+      "status_color": "inactive",
       "star": true,
       "link": "https://forgde.tumblr.com",
       "last_active": "2026-08-31"
@@ -108,18 +106,16 @@
     "total_days_recorded": 1,
     "blog_active_days": {
       "gospul": 0,
-      "willa-jean": 1,
+      "willa-jean": 0,
       "syght": 1,
       "godbrks": 1,
-      "forgde": 1,
+      "forgde": 0,
       "iconik": 0,
       "ensane": 0
     },
     "history": {
       "2026-08-31": [
-        "willa-jean",
         "syght",
-        "forgde",
         "godbrks"
       ]
     }
