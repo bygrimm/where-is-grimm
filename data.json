@@ -1,9 +1,9 @@
 {
   "active": [
     "syght",
-    "godbrks"
+    "forgde"
   ],
-  "date": "AUGUST 31 . 2026",
+  "date": "SEPTEMBER 1 . 2026",
   "blog_list_label": "BLOGS",
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
@@ -36,14 +36,14 @@
       "status_color": "active",
       "star": true,
       "link": "https://syght.tumblr.com",
-      "last_active": "2026-08-31"
+      "last_active": "2026-09-01"
     },
     {
       "id": "godbrks",
       "url": "GODBRKS",
       "muse": "wells stutler",
       "status": "sporadic",
-      "status_color": "active",
+      "status_color": "inactive",
       "star": false,
       "link": "https://godbrks.tumblr.com",
       "last_active": "2026-08-31"
@@ -53,10 +53,10 @@
       "url": "FORGDE",
       "muse": "finnick harding",
       "status": "building",
-      "status_color": "inactive",
+      "status_color": "active",
       "star": true,
       "link": "https://forgde.tumblr.com",
-      "last_active": "2026-08-31"
+      "last_active": "2026-09-01"
     },
     {
       "id": "iconik",
@@ -103,13 +103,13 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 1,
+    "total_days_recorded": 2,
     "blog_active_days": {
       "gospul": 0,
       "willa-jean": 0,
-      "syght": 1,
+      "syght": 2,
       "godbrks": 1,
-      "forgde": 0,
+      "forgde": 1,
       "iconik": 0,
       "ensane": 0
     },
@@ -117,6 +117,10 @@
       "2026-08-31": [
         "syght",
         "godbrks"
+      ],
+      "2026-09-01": [
+        "syght",
+        "forgde"
       ]
     }
   }
