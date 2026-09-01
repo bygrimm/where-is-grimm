@@ -2,7 +2,8 @@
   "active": [
     "willa-jean",
     "syght",
-    "forgde"
+    "forgde",
+    "godbrks"
   ],
   "date": "AUGUST 31 . 2026",
   "blog_list_label": "BLOGS",
@@ -44,10 +45,10 @@
       "url": "GODBRKS",
       "muse": "wells stutler",
       "status": "sporadic",
-      "status_color": "inactive",
+      "status_color": "active",
       "star": false,
       "link": "https://godbrks.tumblr.com",
-      "last_active": "2026-08-10"
+      "last_active": "2026-08-31"
     },
     {
       "id": "forgde",
@@ -109,7 +110,7 @@
       "gospul": 0,
       "willa-jean": 1,
       "syght": 1,
-      "godbrks": 0,
+      "godbrks": 1,
       "forgde": 1,
       "iconik": 0,
       "ensane": 0
@@ -118,7 +119,8 @@
       "2026-08-31": [
         "willa-jean",
         "syght",
-        "forgde"
+        "forgde",
+        "godbrks"
       ]
     }
   }
