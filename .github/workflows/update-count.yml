@@ -2,8 +2,8 @@ name: update-goatcounter-count
 
 on:
   schedule:
-    # Runs every 6 hours. GitHub Pages deploy takes ~30s after push.
-    - cron: '0 */6 * * *'
+    # Runs every 2 hours. GitHub Pages deploy takes ~30s after push.
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 permissions:
