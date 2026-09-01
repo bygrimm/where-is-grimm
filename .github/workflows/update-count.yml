@@ -1,0 +1,43 @@
+name: update-goatcounter-count
+
+on:
+  schedule:
+    # Runs every 6 hours. GitHub Pages deploy takes ~30s after push.
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-count:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch GoatCounter total and write count.json
+        env:
+          GOATCOUNTER_API_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}
+        run: |
+          curl -sf \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${GOATCOUNTER_API_KEY}" \
+            "https://stupidhimbo.goatcounter.com/api/v0/stats/total" \
+            -o /tmp/gc-total.json || { echo "API fetch failed"; exit 1; }
+          total=$(python3 -c "import json,sys; print(json.load(open('/tmp/gc-total.json')).get('total',0))")
+          echo "{\"total\": ${total}, \"updated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > count.json
+          echo "wrote total=${total}"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "bygrimm"
+          git config user.email "goatcounter@stupidhimbo.com"
+          git add count.json
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "update count.json [skip ci]"
+            git push
+            echo "pushed"
+          fi

@@ -122,4 +122,20 @@ async function loadData() {
   }
 }
 
+// Load the GoatCounter view count into the badge
+async function loadCount() {
+  const el = document.getElementById('gcCount');
+  if (!el) return;
+  try {
+    const resp = await fetch(`count.json?v=${Date.now()}`);
+    if (!resp.ok) throw new Error('no count');
+    const data = await resp.json();
+    const total = Number(data.total) || 0;
+    el.textContent = total.toLocaleString('en-US');
+  } catch (e) {
+    el.textContent = '0';
+  }
+}
+
 loadData();
+loadCount();
