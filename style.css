@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@300;400;600;700&family=Jacquarda+Bastarda+9&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@300;400;600;700&family=Jacquarda+Bastarda+9&family=Press+Start+2P&display=swap');
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -259,3 +259,23 @@
   .footer .tagline { font-family: var(--mono-font); font-size: var(--small-size); color: var(--text-muted); letter-spacing: 0.15em; }
   .footer .tagline .accent { color: var(--accent); }
   .footer .note { font-size: calc(var(--small-size) * 0.9); color: var(--text-dim); margin-top: 0.5rem; font-style: italic; }
+
+  /* GoatCounter view-count badge — pixel font, palette-matched, animated */
+  .gc-badge {
+    margin-top: 16px;
+    padding-top: 12px;
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 8px;
+    letter-spacing: 0.06em;
+    line-height: 1.8;
+    color: var(--text-dim);
+    border-top: 1px dashed var(--card-border);
+    animation: badgeBreathe 5s ease-in-out infinite;
+  }
+  .gc-badge .gc-flower { color: var(--accent); font-size: 9px;
+    animation: flowerBlink 2.4s steps(2, end) infinite; display: inline-block; }
+  .gc-badge .gc-count { color: var(--accent); font-weight: 700;
+    text-shadow: 0 0 8px rgba(115, 116, 52, 0.55); }
+  @keyframes badgeBreathe { 0%,100% { opacity: 0.72; } 50% { opacity: 1; } }
+  @keyframes flowerBlink { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
