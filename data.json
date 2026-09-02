@@ -1,9 +1,10 @@
 {
   "active": [
-    "syght",
+    "willa-jean",
+    "godbrks",
     "forgde"
   ],
-  "date": "SEPTEMBER 1 . 2026",
+  "date": "SEPTEMBER 2 . 2026",
   "blog_list_label": "BLOGS",
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
@@ -23,17 +24,17 @@
       "url": "WILLA-JEAN",
       "muse": "willa-jean winslow",
       "status": "high",
-      "status_color": "inactive",
+      "status_color": "active",
       "star": true,
       "link": "https://willa-jean.tumblr.com",
-      "last_active": "2026-08-31"
+      "last_active": "2026-09-02"
     },
     {
       "id": "syght",
       "url": "SYGHT",
       "muse": "nora özgen",
       "status": "building",
-      "status_color": "active",
+      "status_color": "inactive",
       "star": true,
       "link": "https://syght.tumblr.com",
       "last_active": "2026-09-01"
@@ -43,10 +44,10 @@
       "url": "GODBRKS",
       "muse": "wells stutler",
       "status": "sporadic",
-      "status_color": "inactive",
+      "status_color": "active",
       "star": false,
       "link": "https://godbrks.tumblr.com",
-      "last_active": "2026-08-31"
+      "last_active": "2026-09-02"
     },
     {
       "id": "forgde",
@@ -56,7 +57,7 @@
       "status_color": "active",
       "star": true,
       "link": "https://forgde.tumblr.com",
-      "last_active": "2026-09-01"
+      "last_active": "2026-09-02"
     },
     {
       "id": "iconik",
@@ -103,13 +104,13 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 2,
+    "total_days_recorded": 3,
     "blog_active_days": {
       "gospul": 0,
-      "willa-jean": 0,
+      "willa-jean": 1,
       "syght": 2,
-      "godbrks": 1,
-      "forgde": 1,
+      "godbrks": 2,
+      "forgde": 2,
       "iconik": 0,
       "ensane": 0
     },
@@ -120,6 +121,11 @@
       ],
       "2026-09-01": [
         "syght",
+        "forgde"
+      ],
+      "2026-09-02": [
+        "willa-jean",
+        "godbrks",
         "forgde"
       ]
     }
