@@ -1,8 +1,9 @@
 {
   "active": [
+    "willa-jean",
     "syght"
   ],
-  "date": "SEPTEMBER 2 . 2026",
+  "date": "SEPTEMBER 3 . 2026",
   "blog_list_label": "BLOGS",
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
@@ -22,10 +23,10 @@
       "url": "WILLA-JEAN",
       "muse": "willa-jean winslow",
       "status": "high",
-      "status_color": "inactive",
+      "status_color": "active",
       "star": true,
       "link": "https://willa-jean.tumblr.com",
-      "last_active": "2026-09-02"
+      "last_active": "2026-09-03"
     },
     {
       "id": "syght",
@@ -35,7 +36,7 @@
       "status_color": "active",
       "star": true,
       "link": "https://syght.tumblr.com",
-      "last_active": "2026-09-02"
+      "last_active": "2026-09-03"
     },
     {
       "id": "godbrks",
@@ -102,11 +103,11 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 3,
+    "total_days_recorded": 4,
     "blog_active_days": {
       "gospul": 0,
-      "willa-jean": 0,
-      "syght": 3,
+      "willa-jean": 1,
+      "syght": 4,
       "godbrks": 1,
       "forgde": 1,
       "iconik": 0,
@@ -122,6 +123,10 @@
         "forgde"
       ],
       "2026-09-02": [
+        "syght"
+      ],
+      "2026-09-03": [
+        "willa-jean",
         "syght"
       ]
     }
