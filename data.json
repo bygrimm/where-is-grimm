@@ -3,7 +3,7 @@
     "forgde",
     "willa-jean"
   ],
-  "date": "SEPTEMBER 4 . 2026",
+  "date": "SEPTEMBER 5 . 2026",
   "blog_list_label": "BLOGS",
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
@@ -26,7 +26,7 @@
       "status_color": "active",
       "star": true,
       "link": "https://willa-jean.tumblr.com",
-      "last_active": "2026-09-04"
+      "last_active": "2026-09-05"
     },
     {
       "id": "syght",
@@ -56,7 +56,7 @@
       "status_color": "active",
       "star": true,
       "link": "https://forgde.tumblr.com",
-      "last_active": "2026-09-04"
+      "last_active": "2026-09-05"
     },
     {
       "id": "iconik",
@@ -103,13 +103,13 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 5,
+    "total_days_recorded": 6,
     "blog_active_days": {
       "gospul": 0,
-      "willa-jean": 2,
+      "willa-jean": 3,
       "syght": 4,
       "godbrks": 1,
-      "forgde": 2,
+      "forgde": 3,
       "iconik": 0,
       "ensane": 0
     },
@@ -130,6 +130,10 @@
         "syght"
       ],
       "2026-09-04": [
+        "forgde",
+        "willa-jean"
+      ],
+      "2026-09-05": [
         "forgde",
         "willa-jean"
       ]
