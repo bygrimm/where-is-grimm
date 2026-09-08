@@ -1,9 +1,9 @@
 {
   "active": [
-    "forgde",
-    "willa-jean"
+    "syght",
+    "ensane"
   ],
-  "date": "SEPTEMBER 7 . 2026",
+  "date": "SEPTEMBER 8 . 2026",
   "blog_list_label": "BLOGS",
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
@@ -23,7 +23,7 @@
       "url": "WILLA-JEAN",
       "muse": "willa-jean winslow",
       "status": "high",
-      "status_color": "active",
+      "status_color": "inactive",
       "star": true,
       "link": "https://willa-jean.tumblr.com",
       "last_active": "2026-09-07"
@@ -33,10 +33,10 @@
       "url": "SYGHT",
       "muse": "nora özgen",
       "status": "building",
-      "status_color": "inactive",
+      "status_color": "active",
       "star": true,
       "link": "https://syght.tumblr.com",
-      "last_active": "2026-09-03"
+      "last_active": "2026-09-08"
     },
     {
       "id": "godbrks",
@@ -53,7 +53,7 @@
       "url": "FORGDE",
       "muse": "finnick harding",
       "status": "building",
-      "status_color": "active",
+      "status_color": "inactive",
       "star": true,
       "link": "https://forgde.tumblr.com",
       "last_active": "2026-09-07"
@@ -73,10 +73,10 @@
       "url": "ENSANE",
       "muse": "oc multimuse",
       "status": "semi",
-      "status_color": "inactive",
+      "status_color": "active",
       "star": false,
       "link": "https://ensane.tumblr.com",
-      "last_active": "2026-07-15"
+      "last_active": "2026-09-08"
     }
   ],
   "theme": {
@@ -103,15 +103,15 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 7,
+    "total_days_recorded": 8,
     "blog_active_days": {
       "gospul": 0,
       "willa-jean": 4,
-      "syght": 4,
+      "syght": 5,
       "godbrks": 1,
       "forgde": 4,
       "iconik": 0,
-      "ensane": 0
+      "ensane": 1
     },
     "history": {
       "2026-08-31": [
@@ -140,6 +140,10 @@
       "2026-09-07": [
         "forgde",
         "willa-jean"
+      ],
+      "2026-09-08": [
+        "syght",
+        "ensane"
       ]
     }
   }
