@@ -93,14 +93,15 @@ function render() {
     li.style.setProperty('--i', index);
 
     const statusClass = isActive ? 'active' : blog.status;
-    const statusLabel = isActive ? '● today' : blog.status;
+    let statusLabel = isActive ? '● today' : blog.status;
+    if (blog.moved) statusLabel = blog.moved;
     const lastActive = isActive ? 'today' : timeAgo(blog.last_active);
 
     li.innerHTML = `
       <div class="url-block">
-        <a href="${blog.link}" target="_blank" rel="noopener" class="url-link"><div class="url-text"><span class="accent">${blog.url.charAt(0)}</span>${blog.url.slice(1)}</div><div class="muse-text">${blog.muse}</div>${blog.note ? `<div class="blog-note">${blog.note}</div>` : ''}<div class="last-active">❀˖  last active <b>${lastActive}</b></div></a>
+        <a href="${blog.link}" target="_blank" rel="noopener" class="url-link"><div class="url-text"><span class="accent">${blog.url.charAt(0)}</span>${blog.url.slice(1)}</div><div class="muse-text">${blog.muse}</div><div class="last-active">❀˖  last active <b>${lastActive}</b></div></a>
       </div>
-      <span class="status-badge ${statusClass}">${statusLabel}</span>
+      <span class="status-badge ${blog.moved ? 'moved' : statusClass}">${statusLabel}</span>
       ${isActive ? '<span class="star">★</span>' : ''}
     `;
 
