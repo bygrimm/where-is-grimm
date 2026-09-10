@@ -213,6 +213,17 @@
     color: var(--accent);
     font-weight: 600;
   }
+  .blog-item .blog-note {
+    font-size: calc(var(--body-size) * 0.6);
+    font-style: italic;
+    color: var(--text-muted);
+    margin-top: 0.12rem;
+    letter-spacing: 0.03em;
+  }
+  .blog-item .blog-note b {
+    color: var(--accent);
+    font-weight: 600;
+  }
 
   .url-link {
     text-decoration: none;

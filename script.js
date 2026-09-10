@@ -98,7 +98,7 @@ function render() {
 
     li.innerHTML = `
       <div class="url-block">
-        <a href="${blog.link}" target="_blank" rel="noopener" class="url-link"><div class="url-text"><span class="accent">${blog.url.charAt(0)}</span>${blog.url.slice(1)}</div><div class="muse-text">${blog.muse}</div><div class="last-active">❀˖  last active <b>${lastActive}</b></div></a>
+        <a href="${blog.link}" target="_blank" rel="noopener" class="url-link"><div class="url-text"><span class="accent">${blog.url.charAt(0)}</span>${blog.url.slice(1)}</div><div class="muse-text">${blog.muse}</div>${blog.note ? `<div class="blog-note">${blog.note}</div>` : ''}<div class="last-active">❀˖  last active <b>${lastActive}</b></div></a>
       </div>
       <span class="status-badge ${statusClass}">${statusLabel}</span>
       ${isActive ? '<span class="star">★</span>' : ''}
