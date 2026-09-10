@@ -68,10 +68,10 @@ function render() {
     }
     const blog = state.blogs.find(b => b.id === id);
     if (!blog) return;
-    const firstName = blog.muse.split(/[\s-]+/)[0];
+    const display = blog.header_name || blog.muse.split(/[\s-]+/)[0];
     const span = document.createElement('span');
     span.className = 'current-blog-item';
-    span.innerHTML = `<span class="accent">${firstName.charAt(0)}</span><span class="rest">${firstName.slice(1)}</span>`;
+    span.innerHTML = `<span class="accent">${display.charAt(0)}</span><span class="rest">${display.slice(1)}</span>`;
     currentBlogs.appendChild(span);
   });
 
