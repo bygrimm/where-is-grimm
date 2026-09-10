@@ -1,9 +1,8 @@
 {
   "active": [
-    "willa-jean",
     "ensane"
   ],
-  "date": "SEPTEMBER 9 . 2026",
+  "date": "SEPTEMBER 10 . 2026",
   "blog_list_label": "BLOGS",
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
@@ -23,7 +22,7 @@
       "url": "WILLA-JEAN",
       "muse": "willa-jean winslow",
       "status": "high",
-      "status_color": "active",
+      "status_color": "inactive",
       "star": true,
       "link": "https://willa-jean.tumblr.com",
       "last_active": "2026-09-09"
@@ -76,7 +75,7 @@
       "status_color": "active",
       "star": false,
       "link": "https://ensane.tumblr.com",
-      "last_active": "2026-09-09"
+      "last_active": "2026-09-10"
     }
   ],
   "theme": {
@@ -103,7 +102,7 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 9,
+    "total_days_recorded": 10,
     "blog_active_days": {
       "gospul": 0,
       "willa-jean": 5,
@@ -111,7 +110,7 @@
       "godbrks": 1,
       "forgde": 4,
       "iconik": 0,
-      "ensane": 2
+      "ensane": 3
     },
     "history": {
       "2026-08-31": [
@@ -147,6 +146,9 @@
       ],
       "2026-09-09": [
         "willa-jean",
+        "ensane"
+      ],
+      "2026-09-10": [
         "ensane"
       ]
     }
