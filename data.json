@@ -2,7 +2,7 @@
   "active": [
     "ensane"
   ],
-  "date": "SEPTEMBER 10 . 2026",
+  "date": "SEPTEMBER 11 . 2026",
   "blog_list_label": "BLOGS",
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
@@ -15,7 +15,7 @@
       "status_color": "active",
       "star": false,
       "link": "https://ensane.tumblr.com",
-      "last_active": "2026-09-10",
+      "last_active": "2026-09-11",
       "header_name": "the multimuse"
     },
     {
@@ -106,7 +106,7 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 10,
+    "total_days_recorded": 11,
     "blog_active_days": {
       "gospul": 0,
       "willa-jean": 5,
@@ -114,7 +114,7 @@
       "godbrks": 1,
       "forgde": 4,
       "iconik": 0,
-      "ensane": 3
+      "ensane": 4
     },
     "history": {
       "2026-08-31": [
@@ -153,6 +153,9 @@
         "ensane"
       ],
       "2026-09-10": [
+        "ensane"
+      ],
+      "2026-09-11": [
         "ensane"
       ]
     }
