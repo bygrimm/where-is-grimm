@@ -1,8 +1,9 @@
 {
   "active": [
+    "willa-jean",
     "ensane"
   ],
-  "date": "SEPTEMBER 11 . 2026",
+  "date": "SEPTEMBER 14 . 2026",
   "blog_list_label": "BLOGS",
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
@@ -15,7 +16,7 @@
       "status_color": "active",
       "star": false,
       "link": "https://ensane.tumblr.com",
-      "last_active": "2026-09-11",
+      "last_active": "2026-09-14",
       "header_name": "the multimuse"
     },
     {
@@ -43,10 +44,10 @@
       "url": "WILLA-JEAN",
       "muse": "willa-jean winslow",
       "status": "high",
-      "status_color": "inactive",
+      "status_color": "active",
       "star": true,
       "link": "https://willa-jean.tumblr.com",
-      "last_active": "2026-09-09"
+      "last_active": "2026-09-14"
     },
     {
       "id": "iconik",
@@ -106,15 +107,15 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 11,
+    "total_days_recorded": 12,
     "blog_active_days": {
       "gospul": 0,
-      "willa-jean": 5,
+      "willa-jean": 6,
       "syght": 5,
       "godbrks": 1,
       "forgde": 4,
       "iconik": 0,
-      "ensane": 4
+      "ensane": 5
     },
     "history": {
       "2026-08-31": [
@@ -156,6 +157,10 @@
         "ensane"
       ],
       "2026-09-11": [
+        "ensane"
+      ],
+      "2026-09-14": [
+        "willa-jean",
         "ensane"
       ]
     }
