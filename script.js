@@ -85,7 +85,7 @@ function render() {
 
   // blog list display
   blogList.innerHTML = '';
-  state.blogs.forEach((blog, index) => {
+  state.blogs.filter(blog => !blog.hidden).forEach((blog, index) => {
     const isActive = state.active.includes(blog.id);
     const li = document.createElement('li');
     li.className = 'blog-item' + (isActive ? ' active' : '');
