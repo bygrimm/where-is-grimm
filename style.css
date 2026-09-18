@@ -18,6 +18,7 @@
     --status-high: #2f832f;
     --status-building: #40641b;
     --status-sporadic: #687934;
+    --status-slow: #6f7d55;
     --status-inactive: #87876e;
     --card-w: 520px;
     --hdr-size: 2.0rem;

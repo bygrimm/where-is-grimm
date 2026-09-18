@@ -29,6 +29,7 @@ function applyTheme(t) {
   r.setProperty('--status-high', t.status_high);
   r.setProperty('--status-building', t.status_building);
   r.setProperty('--status-sporadic', t.status_sporadic);
+  if (t.status_slow) r.setProperty('--status-slow', t.status_slow);
   r.setProperty('--status-inactive', t.status_inactive);
   r.setProperty('--body-font', `'${t.body_font}', sans-serif`);
   r.setProperty('--mono-font', `'${t.mono_font}', monospace`);

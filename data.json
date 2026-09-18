@@ -102,7 +102,8 @@
     "card_width": 520,
     "header_size": "2.0rem",
     "body_size": "0.85rem",
-    "small_size": "0.6rem"
+    "small_size": "0.6rem",
+    "status_slow": "#6f7d55"
   },
   "stats": {
     "total_days_recorded": 14,
