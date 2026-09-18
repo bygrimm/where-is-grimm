@@ -53,13 +53,11 @@
       "id": "iconik",
       "url": "ICONIK",
       "muse": "denali delacruz",
-      "status": "semi",
-      "status_color": "inactive",
+      "status": "high",
+      "status_color": "active",
       "star": false,
       "link": "https://iconik.tumblr.com",
-      "last_active": "2026-07-28",
-      "moved": "temp. moved → ENSANE",
-      "hidden": true
+      "last_active": "2026-07-28"
     },
     {
       "id": "syght",
