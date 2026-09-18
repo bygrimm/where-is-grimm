@@ -253,6 +253,7 @@
   .status-badge.high { color: var(--status-high); border: 1px solid var(--status-high); }
   .status-badge.building { color: var(--status-building); border: 1px solid var(--status-building); }
   .status-badge.sporadic { color: var(--status-sporadic); border: 1px solid var(--status-sporadic); }
+  .status-badge.slow { color: var(--status-slow); border: 1px solid var(--status-slow); }
   .status-badge.inactive { color: var(--status-inactive); border: 1px solid var(--status-inactive); }
   .status-badge.main { color: var(--status-inactive); border: 1px solid var(--status-inactive); }
   .status-badge.semi { color: var(--status-inactive); border: 1px solid var(--status-inactive); }

@@ -1,7 +1,6 @@
 {
   "active": [
-    "ensane",
-    "godbrks"
+    "ensane"
   ],
   "date": "SEPTEMBER 18 . 2026",
   "blog_list_label": "BLOGS",
@@ -34,10 +33,10 @@
       "url": "GODBRKS",
       "muse": "wells stutler",
       "status": "sporadic",
-      "status_color": "active",
+      "status_color": "inactive",
       "star": false,
       "link": "https://godbrks.tumblr.com",
-      "last_active": "2026-09-18"
+      "last_active": "2026-09-02"
     },
     {
       "id": "willa-jean",
@@ -53,7 +52,7 @@
       "id": "iconik",
       "url": "ICONIK",
       "muse": "denali delacruz",
-      "status": "high",
+      "status": "slow",
       "status_color": "active",
       "star": false,
       "link": "https://iconik.tumblr.com",
@@ -111,7 +110,7 @@
       "gospul": 0,
       "willa-jean": 7,
       "syght": 5,
-      "godbrks": 2,
+      "godbrks": 1,
       "forgde": 4,
       "iconik": 0,
       "ensane": 7
@@ -167,8 +166,7 @@
         "willa-jean"
       ],
       "2026-09-18": [
-        "ensane",
-        "godbrks"
+        "ensane"
       ]
     }
   }
