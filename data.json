@@ -1,8 +1,10 @@
 {
   "active": [
-    "ensane"
+    "iconik",
+    "willa-jean",
+    "gospul"
   ],
-  "date": "SEPTEMBER 18 . 2026",
+  "date": "SEPTEMBER 21 . 2026",
   "blog_list_label": "BLOGS",
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
@@ -12,7 +14,7 @@
       "url": "ENSANE",
       "muse": "oc multimuse",
       "status": "semi",
-      "status_color": "active",
+      "status_color": "inactive",
       "star": false,
       "link": "https://ensane.tumblr.com",
       "last_active": "2026-09-18",
@@ -23,10 +25,10 @@
       "url": "GOSPUL",
       "muse": "cecily noväk",
       "status": "main",
-      "status_color": "inactive",
+      "status_color": "active",
       "star": false,
       "link": "https://gospul.tumblr.com",
-      "last_active": "2026-08-20"
+      "last_active": "2026-09-21"
     },
     {
       "id": "godbrks",
@@ -43,10 +45,10 @@
       "url": "WILLA-JEAN",
       "muse": "willa-jean winslow",
       "status": "high",
-      "status_color": "inactive",
+      "status_color": "active",
       "star": true,
       "link": "https://willa-jean.tumblr.com",
-      "last_active": "2026-09-16"
+      "last_active": "2026-09-21"
     },
     {
       "id": "iconik",
@@ -56,7 +58,7 @@
       "status_color": "active",
       "star": false,
       "link": "https://iconik.tumblr.com",
-      "last_active": "2026-07-28"
+      "last_active": "2026-09-21"
     },
     {
       "id": "syght",
@@ -106,14 +108,14 @@
     "status_slow": "#6f7d55"
   },
   "stats": {
-    "total_days_recorded": 14,
+    "total_days_recorded": 15,
     "blog_active_days": {
-      "gospul": 0,
-      "willa-jean": 7,
+      "gospul": 1,
+      "willa-jean": 8,
       "syght": 5,
       "godbrks": 1,
       "forgde": 4,
-      "iconik": 0,
+      "iconik": 1,
       "ensane": 7
     },
     "history": {
@@ -168,6 +170,11 @@
       ],
       "2026-09-18": [
         "ensane"
+      ],
+      "2026-09-21": [
+        "iconik",
+        "willa-jean",
+        "gospul"
       ]
     }
   }
