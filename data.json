@@ -1,10 +1,9 @@
 {
   "active": [
     "iconik",
-    "willa-jean",
     "gospul"
   ],
-  "date": "SEPTEMBER 21 . 2026",
+  "date": "SEPTEMBER 23 . 2026",
   "blog_list_label": "BLOGS",
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
@@ -28,7 +27,7 @@
       "status_color": "active",
       "star": false,
       "link": "https://gospul.tumblr.com",
-      "last_active": "2026-09-21"
+      "last_active": "2026-09-23"
     },
     {
       "id": "godbrks",
@@ -58,7 +57,7 @@
       "status_color": "active",
       "star": false,
       "link": "https://iconik.tumblr.com",
-      "last_active": "2026-09-21"
+      "last_active": "2026-09-23"
     },
     {
       "id": "syght",
@@ -108,14 +107,14 @@
     "status_slow": "#6f7d55"
   },
   "stats": {
-    "total_days_recorded": 15,
+    "total_days_recorded": 16,
     "blog_active_days": {
-      "gospul": 1,
+      "gospul": 2,
       "willa-jean": 8,
       "syght": 5,
       "godbrks": 1,
       "forgde": 4,
-      "iconik": 1,
+      "iconik": 2,
       "ensane": 7
     },
     "history": {
@@ -174,6 +173,10 @@
       "2026-09-21": [
         "iconik",
         "willa-jean",
+        "gospul"
+      ],
+      "2026-09-23": [
+        "iconik",
         "gospul"
       ]
     }
