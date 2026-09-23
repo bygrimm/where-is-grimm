@@ -6,8 +6,8 @@ name: traffic sources
 #
 # Run it with:
 #   gh workflow run traffic-sources.yml --repo bygrimm/where-is-grimm
-# Then read the log:
-#   gh run view --repo bygrimm/where-is-grimm --log
+# Then read it:
+#   gh run list --repo bygrimm/where-is-grimm --workflow=traffic-sources.yml --limit 1
 
 on:
   workflow_dispatch:
@@ -31,16 +31,28 @@ jobs:
               -H "Authorization: Bearer $GC_KEY"
           }
 
-          echo "===== TOTAL ====="
-          get "/stats/total?limit=5"
-          echo
+          echo "===== TOTAL VIEWS ====="
+          get "/stats/total" | jq -r '.total // .hits[0].count // .'
 
-          echo "===== TOP PATHS ====="
-          get "/stats/hits?limit=10"
           echo
+          echo "===== WHERE THEY COME FROM (referrers) ====="
+          get "/stats/toprefs" | jq -r '
+            (if .stats then .stats else . end)
+            | if type == "array" then .[] else . end
+            | "\(.count)\t\(.name // .ref // .ref_scheme // "?")"
+          ' 2>/dev/null || get "/stats/toprefs"
 
-          for PAGE in toprefs refs browsers systems locations sizes; do
-            echo "===== $PAGE ====="
-            get "/stats/$PAGE?limit=10"
-            echo
+          echo
+          echo "===== VISITORS BY BROWSER / OS / SCREEN / COUNTRY ====="
+          for PAGE in browsers systems sizes locations; do
+            echo "--- $PAGE ---"
+            get "/stats/$PAGE" | jq -r '
+              (if .stats then .stats else . end)
+              | if type == "array" then .[] else . end
+              | "\(.count)\t\(.name // .id // "?")"
+            ' 2>/dev/null || echo "(no data)"
           done
+
+          echo
+          echo "===== RAW toprefs (fallback if the above is empty) ====="
+          get "/stats/toprefs"
