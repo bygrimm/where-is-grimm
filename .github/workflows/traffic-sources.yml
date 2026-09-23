@@ -1,0 +1,46 @@
+name: traffic sources
+
+# Answers "where are the views coming from?" for status.stupidhimbo.com.
+# The GoatCounter API key lives only in the repo secret, so we query it from
+# inside Actions rather than from a local machine.
+#
+# Run it with:
+#   gh workflow run traffic-sources.yml --repo bygrimm/where-is-grimm
+# Then read the log:
+#   gh run view --repo bygrimm/where-is-grimm --log
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    steps:
+      - name: query goatcounter stats
+        env:
+          GC_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}
+        run: |
+          set -u
+          API="https://stupidhimbo.goatcounter.com/api/v0"
+          get() {
+            curl -s "$API$1" \
+              -H 'Content-Type: application/json' \
+              -H "Authorization: Bearer $GC_KEY"
+          }
+
+          echo "===== TOTAL ====="
+          get "/stats/total?limit=5"
+          echo
+
+          echo "===== TOP PATHS ====="
+          get "/stats/hits?limit=10"
+          echo
+
+          for PAGE in toprefs refs browsers systems locations sizes; do
+            echo "===== $PAGE ====="
+            get "/stats/$PAGE?limit=10"
+            echo
+          done
