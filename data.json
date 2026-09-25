@@ -21,6 +21,26 @@
       "header_name": "the multimuse"
     },
     {
+      "id": "iconik",
+      "url": "ICONIK",
+      "muse": "denali delacruz",
+      "status": "slow",
+      "status_color": "active",
+      "star": false,
+      "link": "https://iconik.tumblr.com",
+      "last_active": "2026-09-23"
+    },
+    {
+      "id": "erotiyk",
+      "url": "EROTIYK",
+      "muse": "juniper castro",
+      "status": "high",
+      "status_color": "active",
+      "star": false,
+      "link": "https://erotiyk.tumblr.com",
+      "last_active": "2026-09-23"
+    },
+    {
       "id": "gospul",
       "url": "GOSPUL",
       "muse": "cecily noväk",
@@ -51,16 +71,6 @@
       "last_active": "2026-09-21"
     },
     {
-      "id": "iconik",
-      "url": "ICONIK",
-      "muse": "denali delacruz",
-      "status": "slow",
-      "status_color": "active",
-      "star": false,
-      "link": "https://iconik.tumblr.com",
-      "last_active": "2026-09-23"
-    },
-    {
       "id": "syght",
       "url": "SYGHT",
       "muse": "nora özgen",
@@ -81,16 +91,6 @@
       "link": "https://forgde.tumblr.com",
       "last_active": "2026-09-07",
       "moved": "temp. moved → ENSANE"
-    },
-    {
-      "id": "erotiyk",
-      "url": "EROTIYK",
-      "muse": "juniper castro",
-      "status": "active",
-      "status_color": "active",
-      "star": false,
-      "link": "https://erotiyk.tumblr.com",
-      "last_active": "2026-09-23"
     }
   ],
   "theme": {
