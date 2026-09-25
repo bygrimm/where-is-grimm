@@ -1,7 +1,8 @@
 {
   "active": [
     "iconik",
-    "gospul"
+    "gospul",
+    "erotiyk"
   ],
   "date": "SEPTEMBER 23 . 2026",
   "blog_list_label": "BLOGS",
@@ -80,6 +81,16 @@
       "link": "https://forgde.tumblr.com",
       "last_active": "2026-09-07",
       "moved": "temp. moved → ENSANE"
+    },
+    {
+      "id": "erotiyk",
+      "url": "EROTIYK",
+      "muse": "juniper castro",
+      "status": "active",
+      "status_color": "active",
+      "star": false,
+      "link": "https://erotiyk.tumblr.com",
+      "last_active": "2026-09-23"
     }
   ],
   "theme": {
@@ -115,7 +126,8 @@
       "godbrks": 1,
       "forgde": 4,
       "iconik": 2,
-      "ensane": 7
+      "ensane": 7,
+      "erotiyk": 1
     },
     "history": {
       "2026-08-31": [
@@ -177,7 +189,8 @@
       ],
       "2026-09-23": [
         "iconik",
-        "gospul"
+        "gospul",
+        "erotiyk"
       ]
     }
   }
