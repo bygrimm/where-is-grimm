@@ -1,7 +1,6 @@
 {
   "active": [
     "iconik",
-    "gospul",
     "erotiyk"
   ],
   "date": "SEPTEMBER 23 . 2026",
@@ -58,7 +57,7 @@
       "status_color": "active",
       "star": false,
       "link": "https://gospul.tumblr.com",
-      "last_active": "2026-09-23"
+      "last_active": "2026-09-21"
     },
     {
       "id": "godbrks",
@@ -120,7 +119,7 @@
   "stats": {
     "total_days_recorded": 16,
     "blog_active_days": {
-      "gospul": 2,
+      "gospul": 1,
       "willa-jean": 8,
       "syght": 5,
       "godbrks": 1,
@@ -189,7 +188,6 @@
       ],
       "2026-09-23": [
         "iconik",
-        "gospul",
         "erotiyk"
       ]
     }
