@@ -9,25 +9,14 @@
   "footer_note": "updated daily — check before reaching out!",
   "blogs": [
     {
-      "id": "ensane",
-      "url": "ENSANE",
-      "muse": "oc multimuse",
-      "status": "slow",
-      "status_color": "inactive",
-      "star": false,
-      "link": "https://ensane.tumblr.com",
-      "last_active": "2026-09-18",
-      "header_name": "the multimuse"
-    },
-    {
-      "id": "iconik",
-      "url": "ICONIK",
-      "muse": "denali delacruz",
-      "status": "sporadic",
+      "id": "erotiyk",
+      "url": "EROTIYK",
+      "muse": "juniper castro",
+      "status": "high",
       "status_color": "active",
       "star": false,
-      "link": "https://iconik.tumblr.com",
-      "last_active": "2026-10-01"
+      "link": "https://erotiyk.tumblr.com",
+      "last_active": "2026-10-03"
     },
     {
       "id": "willa-jean",
@@ -40,14 +29,25 @@
       "last_active": "2026-10-01"
     },
     {
-      "id": "erotiyk",
-      "url": "EROTIYK",
-      "muse": "juniper castro",
-      "status": "high",
+      "id": "iconik",
+      "url": "ICONIK",
+      "muse": "denali delacruz",
+      "status": "sporadic",
       "status_color": "active",
       "star": false,
-      "link": "https://erotiyk.tumblr.com",
-      "last_active": "2026-10-03"
+      "link": "https://iconik.tumblr.com",
+      "last_active": "2026-10-01"
+    },
+    {
+      "id": "ensane",
+      "url": "ENSANE",
+      "muse": "oc multimuse",
+      "status": "slow",
+      "status_color": "inactive",
+      "star": false,
+      "link": "https://ensane.tumblr.com",
+      "last_active": "2026-09-18",
+      "header_name": "the multimuse"
     },
     {
       "id": "gospul",
