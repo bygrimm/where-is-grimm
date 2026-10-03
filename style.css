@@ -258,6 +258,7 @@
   .status-badge.inactive { color: var(--status-inactive); border: 1px solid var(--status-inactive); }
   .status-badge.main { color: var(--status-inactive); border: 1px solid var(--status-inactive); }
   .status-badge.semi { color: var(--status-inactive); border: 1px solid var(--status-inactive); }
+  .status-badge.semi-hiatus { color: var(--status-inactive); border: 1px solid var(--status-inactive); }
   .status-badge.moved {
     color: var(--accent);
     border: 1px dashed var(--accent);
