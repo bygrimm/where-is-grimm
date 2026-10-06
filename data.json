@@ -1,9 +1,8 @@
 {
   "active": [
-    "erotiyk",
-    "iconik"
+    "erotiyk"
   ],
-  "date": "OCTOBER 5 . 2026",
+  "date": "OCTOBER 6 . 2026",
   "blog_list_label": "BLOGS",
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
@@ -16,7 +15,7 @@
       "status_color": "active",
       "star": false,
       "link": "https://erotiyk.tumblr.com",
-      "last_active": "2026-10-05"
+      "last_active": "2026-10-06"
     },
     {
       "id": "willa-jean",
@@ -117,7 +116,7 @@
     "status_slow": "#6f7d55"
   },
   "stats": {
-    "total_days_recorded": 21,
+    "total_days_recorded": 22,
     "blog_active_days": {
       "gospul": 2,
       "willa-jean": 9,
@@ -126,7 +125,7 @@
       "forgde": 4,
       "iconik": 6,
       "ensane": 7,
-      "erotiyk": 6
+      "erotiyk": 7
     },
     "history": {
       "2026-08-31": [
@@ -210,6 +209,9 @@
       "2026-10-05": [
         "erotiyk",
         "iconik"
+      ],
+      "2026-10-06": [
+        "erotiyk"
       ]
     }
   }
