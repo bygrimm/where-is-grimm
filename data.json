@@ -1,12 +1,19 @@
 {
   "active": [
-    "erotiyk"
+    "erotiyk",
+    "ekspose"
   ],
-  "date": "OCTOBER 6 . 2026",
+  "date": "OCTOBER 12 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
-    { "id": "progress", "label": "IN PROGRESS" },
-    { "id": "shelf", "label": "SEMI - HIATUS & HIATUS" }
+    {
+      "id": "progress",
+      "label": "IN PROGRESS"
+    },
+    {
+      "id": "shelf",
+      "label": "SEMI - HIATUS & HIATUS"
+    }
   ],
   "status_labels": {
     "high": "HIGH ACTIVITY",
@@ -26,14 +33,15 @@
       "muse": "juniper castro",
       "status": "high",
       "link": "https://erotiyk.tumblr.com",
-      "last_active": "2026-10-06"
+      "last_active": "2026-10-12"
     },
     {
       "id": "ekspose",
       "url": "EKSPOSE",
       "muse": "jade dubois",
       "status": "building",
-      "link": "https://ekspose.tumblr.com"
+      "link": "https://ekspose.tumblr.com",
+      "last_active": "2026-10-12"
     },
     {
       "id": "corpsight",
@@ -62,7 +70,7 @@
     {
       "id": "jonah",
       "url": "coming soon",
-      "muse": "Jonah Marsden",
+      "muse": "jonah marsden",
       "status": "in-progress",
       "group": "progress"
     },
@@ -132,7 +140,7 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 22,
+    "total_days_recorded": 23,
     "blog_active_days": {
       "gospul": 2,
       "willa-jean": 9,
@@ -141,7 +149,8 @@
       "forgde": 4,
       "iconik": 6,
       "ensane": 7,
-      "erotiyk": 7
+      "erotiyk": 8,
+      "ekspose": 1
     },
     "history": {
       "2026-08-31": [
@@ -228,6 +237,10 @@
       ],
       "2026-10-06": [
         "erotiyk"
+      ],
+      "2026-10-12": [
+        "erotiyk",
+        "ekspose"
       ]
     }
   }
