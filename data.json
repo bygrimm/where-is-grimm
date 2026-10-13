@@ -1,9 +1,8 @@
 {
   "active": [
-    "erotiyk",
     "ekspose"
   ],
-  "date": "OCTOBER 12 . 2026",
+  "date": "OCTOBER 13 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
     {
@@ -41,7 +40,7 @@
       "muse": "jade dubois",
       "status": "building",
       "link": "https://ekspose.tumblr.com",
-      "last_active": "2026-10-12"
+      "last_active": "2026-10-13"
     },
     {
       "id": "corpsight",
@@ -140,7 +139,7 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 23,
+    "total_days_recorded": 24,
     "blog_active_days": {
       "gospul": 2,
       "willa-jean": 9,
@@ -150,7 +149,7 @@
       "iconik": 6,
       "ensane": 7,
       "erotiyk": 8,
-      "ekspose": 1
+      "ekspose": 2
     },
     "history": {
       "2026-08-31": [
@@ -240,6 +239,9 @@
       ],
       "2026-10-12": [
         "erotiyk",
+        "ekspose"
+      ],
+      "2026-10-13": [
         "ekspose"
       ]
     }
