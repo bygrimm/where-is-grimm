@@ -4,6 +4,19 @@
   ],
   "date": "OCTOBER 6 . 2026",
   "blog_list_label": "BLOGS",
+  "groups": [
+    { "id": "progress", "label": "IN PROGRESS" },
+    { "id": "shelf", "label": "SEMI - HIATUS & HIATUS" }
+  ],
+  "status_labels": {
+    "high": "HIGH ACTIVITY",
+    "building": "BUILDING ACTIVITY",
+    "sporadic": "SPORADIC ACTIVITY",
+    "slow": "SLOW ACTIVITY",
+    "semi-hiatus": "SEMI - HIATUS",
+    "hiatus": "HIATUS",
+    "in-progress": "IN PROGRESS"
+  },
   "footer_tagline": "& new blogs will go here!",
   "footer_note": "updated daily — check before reaching out!",
   "blogs": [
@@ -12,83 +25,85 @@
       "url": "EROTIYK",
       "muse": "juniper castro",
       "status": "high",
-      "status_color": "active",
-      "star": false,
       "link": "https://erotiyk.tumblr.com",
       "last_active": "2026-10-06"
     },
     {
-      "id": "willa-jean",
-      "url": "WILLA-JEAN",
-      "muse": "willa-jean winslow",
-      "status": "sporadic",
-      "status_color": "active",
-      "star": true,
-      "link": "https://willa-jean.tumblr.com",
-      "last_active": "2026-10-01"
+      "id": "ekspose",
+      "url": "EKSPOSE",
+      "muse": "jade dubois",
+      "status": "building",
+      "link": "https://ekspose.tumblr.com"
+    },
+    {
+      "id": "corpsight",
+      "url": "CORPSIGHT",
+      "muse": "nora özgen",
+      "status": "building",
+      "link": "https://corpsight.tumblr.com",
+      "last_active": "2026-09-08"
     },
     {
       "id": "iconik",
       "url": "ICONIK",
       "muse": "denali delacruz",
       "status": "sporadic",
-      "status_color": "active",
-      "star": false,
       "link": "https://iconik.tumblr.com",
       "last_active": "2026-10-05"
     },
     {
-      "id": "ensane",
-      "url": "ENSANE",
-      "muse": "oc multimuse",
-      "status": "slow",
-      "status_color": "inactive",
-      "star": false,
-      "link": "https://ensane.tumblr.com",
-      "last_active": "2026-09-18",
-      "header_name": "the multimuse"
+      "id": "willa-jean",
+      "url": "WILLA-JEAN",
+      "muse": "willa-jean winslow",
+      "status": "sporadic",
+      "link": "https://willa-jean.tumblr.com",
+      "last_active": "2026-10-01"
     },
     {
-      "id": "gospul",
-      "url": "GOSPUL",
-      "muse": "cecily noväk",
-      "status": "semi-hiatus",
-      "status_color": "active",
-      "star": false,
-      "link": "https://gospul.tumblr.com",
-      "last_active": "2026-10-03"
+      "id": "jonah",
+      "url": "coming soon",
+      "muse": "Jonah Marsden",
+      "status": "in-progress",
+      "group": "progress"
     },
     {
       "id": "godbrks",
       "url": "GODBRKS",
       "muse": "wells stutler",
       "status": "semi-hiatus",
-      "status_color": "inactive",
-      "star": false,
+      "group": "shelf",
       "link": "https://godbrks.tumblr.com",
       "last_active": "2026-09-02"
     },
     {
-      "id": "syght",
-      "url": "SYGHT",
-      "muse": "nora özgen",
-      "status": "building",
-      "status_color": "inactive",
-      "star": true,
-      "link": "https://syght.tumblr.com",
-      "last_active": "2026-09-08",
-      "moved": "temp. moved → ENSANE"
+      "id": "gospul",
+      "url": "GOSPUL",
+      "muse": "cecily noväk",
+      "status": "semi-hiatus",
+      "group": "shelf",
+      "link": "https://gospul.tumblr.com",
+      "last_active": "2026-10-03"
+    },
+    {
+      "id": "ensane",
+      "url": "ENSANE",
+      "muse": "oc multimuse",
+      "status": "hiatus",
+      "group": "shelf",
+      "link": "https://ensane.tumblr.com",
+      "last_active": "2026-09-18",
+      "header_name": "the multimuse"
     },
     {
       "id": "forgde",
       "url": "FORGDE",
       "muse": "finnick & ollie",
-      "status": "building",
-      "status_color": "inactive",
-      "star": true,
+      "status": "hiatus",
+      "group": "shelf",
       "link": "https://forgde.tumblr.com",
       "last_active": "2026-09-07",
-      "moved": "temp. moved → ENSANE"
+      "found_at": "ensane",
+      "found_url": "https://www.tumblr.com/ensane"
     }
   ],
   "theme": {
@@ -108,19 +123,20 @@
     "status_high": "#2f832f",
     "status_building": "#40641b",
     "status_sporadic": "#687934",
+    "status_slow": "#6f7d55",
+    "status_hiatus": "#6a6a5b",
     "status_inactive": "#87876e",
     "card_width": 520,
     "header_size": "2.0rem",
     "body_size": "0.85rem",
-    "small_size": "0.6rem",
-    "status_slow": "#6f7d55"
+    "small_size": "0.6rem"
   },
   "stats": {
     "total_days_recorded": 22,
     "blog_active_days": {
       "gospul": 2,
       "willa-jean": 9,
-      "syght": 5,
+      "corpsight": 5,
       "godbrks": 1,
       "forgde": 4,
       "iconik": 6,
@@ -129,19 +145,19 @@
     },
     "history": {
       "2026-08-31": [
-        "syght",
+        "corpsight",
         "godbrks"
       ],
       "2026-09-01": [
-        "syght",
+        "corpsight",
         "forgde"
       ],
       "2026-09-02": [
-        "syght"
+        "corpsight"
       ],
       "2026-09-03": [
         "willa-jean",
-        "syght"
+        "corpsight"
       ],
       "2026-09-04": [
         "forgde",
@@ -156,7 +172,7 @@
         "willa-jean"
       ],
       "2026-09-08": [
-        "syght",
+        "corpsight",
         "ensane"
       ],
       "2026-09-09": [
