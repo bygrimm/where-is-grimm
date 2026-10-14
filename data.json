@@ -1,8 +1,9 @@
 {
   "active": [
-    "ekspose"
+    "ekspose",
+    "willa-jean"
   ],
-  "date": "OCTOBER 13 . 2026",
+  "date": "OCTOBER 14 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
     {
@@ -40,7 +41,7 @@
       "muse": "jade dubois",
       "status": "building",
       "link": "https://ekspose.tumblr.com",
-      "last_active": "2026-10-13"
+      "last_active": "2026-10-14"
     },
     {
       "id": "corpsight",
@@ -64,7 +65,7 @@
       "muse": "willa-jean winslow",
       "status": "sporadic",
       "link": "https://willa-jean.tumblr.com",
-      "last_active": "2026-10-01"
+      "last_active": "2026-10-14"
     },
     {
       "id": "jonah",
@@ -139,17 +140,17 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 24,
+    "total_days_recorded": 25,
     "blog_active_days": {
       "gospul": 2,
-      "willa-jean": 9,
+      "willa-jean": 10,
       "corpsight": 5,
       "godbrks": 1,
       "forgde": 4,
       "iconik": 6,
       "ensane": 7,
       "erotiyk": 8,
-      "ekspose": 2
+      "ekspose": 3
     },
     "history": {
       "2026-08-31": [
@@ -243,6 +244,10 @@
       ],
       "2026-10-13": [
         "ekspose"
+      ],
+      "2026-10-14": [
+        "ekspose",
+        "willa-jean"
       ]
     }
   }
