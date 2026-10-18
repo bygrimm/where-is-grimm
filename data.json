@@ -1,9 +1,10 @@
 {
   "active": [
     "ekspose",
-    "willa-jean"
+    "willa-jean",
+    "erotyik"
   ],
-  "date": "OCTOBER 14 . 2026",
+  "date": "OCTOBER 18 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
     {
@@ -28,12 +29,12 @@
   "footer_note": "updated daily — check before reaching out!",
   "blogs": [
     {
-      "id": "erotiyk",
-      "url": "EROTIYK",
+      "id": "erotyik",
+      "url": "EROTYIK",
       "muse": "juniper castro",
       "status": "high",
-      "link": "https://erotiyk.tumblr.com",
-      "last_active": "2026-10-12"
+      "link": "https://erotyik.tumblr.com",
+      "last_active": "2026-10-18"
     },
     {
       "id": "ekspose",
@@ -149,7 +150,7 @@
       "forgde": 4,
       "iconik": 6,
       "ensane": 7,
-      "erotiyk": 8,
+      "erotyik": 9,
       "ekspose": 3
     },
     "history": {
@@ -212,34 +213,34 @@
       ],
       "2026-09-23": [
         "iconik",
-        "erotiyk"
+        "erotyik"
       ],
       "2026-09-26": [
         "iconik",
-        "erotiyk"
+        "erotyik"
       ],
       "2026-09-29": [
         "iconik",
-        "erotiyk"
+        "erotyik"
       ],
       "2026-10-01": [
         "iconik",
-        "erotiyk",
+        "erotyik",
         "willa-jean"
       ],
       "2026-10-03": [
-        "erotiyk",
+        "erotyik",
         "gospul"
       ],
       "2026-10-05": [
-        "erotiyk",
+        "erotyik",
         "iconik"
       ],
       "2026-10-06": [
-        "erotiyk"
+        "erotyik"
       ],
       "2026-10-12": [
-        "erotiyk",
+        "erotyik",
         "ekspose"
       ],
       "2026-10-13": [
@@ -248,6 +249,9 @@
       "2026-10-14": [
         "ekspose",
         "willa-jean"
+      ],
+      "2026-10-18": [
+        "erotyik"
       ]
     }
   }
