@@ -2,7 +2,7 @@
   "active": [
     "erotyik"
   ],
-  "date": "OCTOBER 20 . 2026",
+  "date": "OCTOBER 21 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
     {
@@ -32,7 +32,7 @@
       "muse": "juniper castro",
       "status": "high",
       "link": "https://erotyik.tumblr.com",
-      "last_active": "2026-10-18"
+      "last_active": "2026-10-21"
     },
     {
       "id": "ekspose",
@@ -139,16 +139,16 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 25,
+    "total_days_recorded": 28,
     "blog_active_days": {
-      "gospul": 2,
-      "willa-jean": 10,
       "corpsight": 5,
       "godbrks": 1,
       "forgde": 4,
-      "iconik": 6,
+      "willa-jean": 10,
       "ensane": 7,
-      "erotyik": 9,
+      "iconik": 6,
+      "gospul": 2,
+      "erotyik": 11,
       "ekspose": 3
     },
     "history": {
@@ -249,6 +249,12 @@
         "willa-jean"
       ],
       "2026-10-18": [
+        "erotyik"
+      ],
+      "2026-10-20": [
+        "erotyik"
+      ],
+      "2026-10-21": [
         "erotyik"
       ]
     }
