@@ -1,9 +1,9 @@
 {
   "active": [
-    "willa-jean",
-    "iconik"
+    "gospul",
+    "willa-jean"
   ],
-  "date": "OCTOBER 23 . 2026",
+  "date": "OCTOBER 25 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
     {
@@ -33,7 +33,7 @@
       "muse": "cecily noväk",
       "status": "high",
       "link": "https://gospul.tumblr.com",
-      "last_active": "2026-10-03"
+      "last_active": "2026-10-25"
     },
     {
       "id": "erotyik",
@@ -73,7 +73,7 @@
       "muse": "willa-jean winslow",
       "status": "sporadic",
       "link": "https://willa-jean.tumblr.com",
-      "last_active": "2026-10-23"
+      "last_active": "2026-10-25"
     },
     {
       "id": "jonah",
@@ -139,15 +139,15 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 29,
+    "total_days_recorded": 30,
     "blog_active_days": {
       "corpsight": 5,
       "godbrks": 1,
       "forgde": 4,
-      "willa-jean": 11,
+      "willa-jean": 12,
       "ensane": 7,
       "iconik": 7,
-      "gospul": 2,
+      "gospul": 3,
       "erotyik": 11,
       "ekspose": 3
     },
@@ -260,6 +260,10 @@
       "2026-10-23": [
         "willa-jean",
         "iconik"
+      ],
+      "2026-10-25": [
+        "gospul",
+        "willa-jean"
       ]
     }
   }
