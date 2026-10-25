@@ -28,6 +28,14 @@
   "footer_note": "updated daily — check before reaching out!",
   "blogs": [
     {
+      "id": "gospul",
+      "url": "GOSPUL",
+      "muse": "cecily noväk",
+      "status": "high",
+      "link": "https://gospul.tumblr.com",
+      "last_active": "2026-10-03"
+    },
+    {
       "id": "erotyik",
       "url": "EROTYIK",
       "muse": "juniper castro",
@@ -82,14 +90,6 @@
       "group": "shelf",
       "link": "https://godbrks.tumblr.com",
       "last_active": "2026-09-02"
-    },
-    {
-      "id": "gospul",
-      "url": "GOSPUL",
-      "muse": "cecily noväk",
-      "status": "high",
-      "link": "https://gospul.tumblr.com",
-      "last_active": "2026-10-03"
     },
     {
       "id": "ensane",
