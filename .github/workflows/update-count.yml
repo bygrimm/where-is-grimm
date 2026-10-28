@@ -4,6 +4,9 @@ on:
   schedule:
     # Run weekly to refresh the seven-day view count; blog check-in remains daily.
     - cron: '0 13 * * 0'
+  push:
+    paths:
+      - .github/workflows/update-count.yml
   workflow_dispatch:
 
 permissions:
