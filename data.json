@@ -1,8 +1,8 @@
 {
   "active": [
-    "gospul"
+    "erotyik"
   ],
-  "date": "OCTOBER 26 . 2026",
+  "date": "OCTOBER 28 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
     {
@@ -32,7 +32,7 @@
       "muse": "juniper castro",
       "status": "high",
       "link": "https://www.tumblr.com/erotyik",
-      "last_active": "2026-10-21"
+      "last_active": "2026-10-28"
     },
     {
       "id": "gospul",
@@ -135,7 +135,7 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 30,
+    "total_days_recorded": 31,
     "blog_active_days": {
       "corpsight": 5,
       "godbrks": 1,
@@ -260,6 +260,9 @@
       "2026-10-25": [
         "gospul",
         "willa-jean"
+      ],
+      "2026-10-28": [
+        "erotyik"
       ]
     }
   }
