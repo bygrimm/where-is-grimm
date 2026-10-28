@@ -27,44 +27,20 @@
   "footer_note": "updated daily — check before reaching out!",
   "blogs": [
     {
+      "id": "erotyik",
+      "url": "EROTYIK",
+      "muse": "juniper castro",
+      "status": "high",
+      "link": "https://www.tumblr.com/erotyik",
+      "last_active": "2026-10-21"
+    },
+    {
       "id": "gospul",
       "url": "GOSPUL",
       "muse": "cecily noväk",
       "status": "high",
       "link": "https://gospul.tumblr.com",
       "last_active": "2026-10-26"
-    },
-    {
-      "id": "erotyik",
-      "url": "EROTYIK",
-      "muse": "juniper castro",
-      "status": "high",
-      "link": "https://erotyik.tumblr.com",
-      "last_active": "2026-10-21"
-    },
-    {
-      "id": "ekspose",
-      "url": "EKSPOSE",
-      "muse": "jade dubois",
-      "status": "building",
-      "link": "https://ekspose.tumblr.com",
-      "last_active": "2026-10-14"
-    },
-    {
-      "id": "corpsight",
-      "url": "CORPSIGHT",
-      "muse": "nora özgen",
-      "status": "building",
-      "link": "https://corpsight.tumblr.com",
-      "last_active": "2026-09-08"
-    },
-    {
-      "id": "iconik",
-      "url": "ICONIK",
-      "muse": "denali delacruz",
-      "status": "sporadic",
-      "link": "https://iconik.tumblr.com",
-      "last_active": "2026-10-23"
     },
     {
       "id": "willa-jean",
@@ -75,11 +51,29 @@
       "last_active": "2026-10-25"
     },
     {
-      "id": "jonah",
-      "url": "coming soon",
-      "muse": "jonah marsden",
-      "status": "in-progress",
-      "group": "progress"
+      "id": "iconik",
+      "url": "ICONIK",
+      "muse": "denali delacruz",
+      "status": "sporadic",
+      "link": "https://iconik.tumblr.com",
+      "last_active": "2026-10-23"
+    },
+    {
+      "id": "ensane",
+      "url": "ENSANE",
+      "muse": "oc multimuse",
+      "status": "sporadic",
+      "link": "https://ensane.tumblr.com",
+      "last_active": "2026-09-18",
+      "header_name": "the multimuse"
+    },
+    {
+      "id": "corpsight",
+      "url": "CORPSIGHT",
+      "muse": "nora özgen",
+      "status": "slow",
+      "link": "https://corpsight.tumblr.com",
+      "last_active": "2026-09-08"
     },
     {
       "id": "godbrks",
@@ -91,14 +85,14 @@
       "last_active": "2026-09-02"
     },
     {
-      "id": "ensane",
-      "url": "ENSANE",
-      "muse": "oc multimuse",
-      "status": "hiatus",
+      "id": "ekspose",
+      "url": "EKSPOSE",
+      "muse": "jade dubois",
+      "status": "building",
+      "link": "https://ekspose.tumblr.com",
+      "last_active": "2026-10-14",
       "group": "shelf",
-      "link": "https://ensane.tumblr.com",
-      "last_active": "2026-09-18",
-      "header_name": "the multimuse"
+      "moved": "MOVED TO ENSANE"
     },
     {
       "id": "forgde",
@@ -109,7 +103,8 @@
       "link": "https://forgde.tumblr.com",
       "last_active": "2026-09-07",
       "found_at": "ensane",
-      "found_url": "https://www.tumblr.com/ensane"
+      "found_url": "https://www.tumblr.com/ensane",
+      "moved": "MOVED TO ENSANE"
     }
   ],
   "theme": {
