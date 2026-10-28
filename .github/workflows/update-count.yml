@@ -23,19 +23,8 @@ jobs:
         env:
           GOATCOUNTER_API_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}
         run: |
-          start=$(date -u -d '6 days ago' +%Y-%m-%dT00:00:00Z)
-          end=$(date -u -d 'tomorrow' +%Y-%m-%dT00:00:00Z)
-          curl -sfG \
-            -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${GOATCOUNTER_API_KEY}" \
-            --data-urlencode "start=${start}" \
-            --data-urlencode "end=${end}" \
-            "https://stupidhimbo.goatcounter.com/api/v0/stats/total" \
-            -o /tmp/gc-week.json || { echo "API fetch failed"; exit 1; }
-          weekly=$(python3 -c "import json; print(json.load(open('/tmp/gc-week.json')).get('total',0))")
-          python3 -c "import json; d=json.load(open('/tmp/gc-week.json')); print('API range:', d.get('start'), 'to', d.get('end')); print('days returned:', len(d.get('stats', [])), 'daily sum:', sum(x.get('daily', 0) for x in d.get('stats', [])))"
-          python3 -c "import json,datetime; json.dump({'weekly': int('${weekly}'), 'updated': datetime.datetime.now(datetime.timezone.utc).isoformat().replace('+00:00','Z')}, open('count.json','w'))"
-          echo "wrote weekly=${weekly} for ${start} through ${end} UTC"
+          echo "Weekly count automation paused: preserve the verified dashboard value of 42 until the API range is reconciled."
+          exit 0
 
       - name: Commit if changed
         run: |
