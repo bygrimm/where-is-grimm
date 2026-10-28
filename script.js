@@ -193,8 +193,8 @@ async function loadCount() {
     const resp = await fetch(`count.json?v=${Date.now()}`);
     if (!resp.ok) throw new Error('no count');
     const data = await resp.json();
-    const total = Number(data.total) || 0;
-    el.textContent = total.toLocaleString('en-US');
+    const weekly = Number(data.weekly) || 0;
+    el.textContent = weekly.toLocaleString('en-US');
   } catch (e) {
     el.textContent = '0';
   }

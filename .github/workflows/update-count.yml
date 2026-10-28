@@ -2,8 +2,8 @@ name: update-goatcounter-count
 
 on:
   schedule:
-    # Runs every 2 hours. GitHub Pages deploy takes ~30s after push.
-    - cron: '0 */2 * * *'
+    # Run weekly to refresh the seven-day view count; blog check-in remains daily.
+    - cron: '0 13 * * 0'
   workflow_dispatch:
 
 permissions:
@@ -16,18 +16,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch GoatCounter total and write count.json
+      - name: Fetch GoatCounter weekly views
         env:
           GOATCOUNTER_API_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}
         run: |
+          start=$(date -u -d '6 days ago' +%Y-%m-%d)
+          end=$(date -u +%Y-%m-%d)
           curl -sf \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${GOATCOUNTER_API_KEY}" \
-            "https://stupidhimbo.goatcounter.com/api/v0/stats/total" \
-            -o /tmp/gc-total.json || { echo "API fetch failed"; exit 1; }
-          total=$(python3 -c "import json,sys; print(json.load(open('/tmp/gc-total.json')).get('total',0))")
-          echo "{\"total\": ${total}, \"updated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > count.json
-          echo "wrote total=${total}"
+            "https://stupidhimbo.goatcounter.com/api/v0/stats/total?start=${start}&end=${end}" \
+            -o /tmp/gc-week.json || { echo "API fetch failed"; exit 1; }
+          weekly=$(python3 -c "import json; print(json.load(open('/tmp/gc-week.json')).get('total',0))")
+          python3 -c "import json,datetime; json.dump({'weekly': int('${weekly}'), 'updated': datetime.datetime.now(datetime.timezone.utc).isoformat().replace('+00:00','Z')}, open('count.json','w'))"
+          echo "wrote weekly=${weekly} for ${start} through ${end} UTC"
 
       - name: Commit if changed
         run: |
@@ -37,7 +39,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "no change"
           else
-            git commit -m "update count.json [skip ci]"
+            git commit -m "update weekly count [skip ci]"
             git push
             echo "pushed"
           fi
