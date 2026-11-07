@@ -1,8 +1,9 @@
 {
   "active": [
-    "erotyik"
+    "willa-jean",
+    "iconik"
   ],
-  "date": "OCTOBER 28 . 2026",
+  "date": "NOVEMBER 7 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
     {
@@ -48,7 +49,7 @@
       "muse": "willa-jean winslow",
       "status": "sporadic",
       "link": "https://willa-jean.tumblr.com",
-      "last_active": "2026-10-25"
+      "last_active": "2026-11-07"
     },
     {
       "id": "iconik",
@@ -56,7 +57,7 @@
       "muse": "denali delacruz",
       "status": "sporadic",
       "link": "https://iconik.tumblr.com",
-      "last_active": "2026-10-23"
+      "last_active": "2026-11-07"
     },
     {
       "id": "ensane",
@@ -135,14 +136,14 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 31,
+    "total_days_recorded": 32,
     "blog_active_days": {
       "corpsight": 5,
       "godbrks": 1,
       "forgde": 4,
-      "willa-jean": 12,
+      "willa-jean": 13,
       "ensane": 7,
-      "iconik": 7,
+      "iconik": 8,
       "gospul": 3,
       "erotyik": 11,
       "ekspose": 3
@@ -263,6 +264,10 @@
       ],
       "2026-10-28": [
         "erotyik"
+      ],
+      "2026-11-07": [
+        "willa-jean",
+        "iconik"
       ]
     }
   }
