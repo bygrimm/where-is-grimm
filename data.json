@@ -1,7 +1,7 @@
 {
   "active": [
-    "willa-jean",
-    "iconik"
+    "erotyik",
+    "mazeys"
   ],
   "date": "NOVEMBER 7 . 2026",
   "blog_list_label": "BLOGS",
@@ -33,7 +33,7 @@
       "muse": "juniper castro",
       "status": "high",
       "link": "https://www.tumblr.com/erotyik",
-      "last_active": "2026-10-28"
+      "last_active": "2026-11-07"
     },
     {
       "id": "gospul",
@@ -44,12 +44,20 @@
       "last_active": "2026-10-26"
     },
     {
+      "id": "mazeys",
+      "url": "MAZEYS",
+      "muse": "mazey day",
+      "status": "building",
+      "link": "https://www.tumblr.com/mazeys",
+      "last_active": "2026-11-07"
+    },
+    {
       "id": "willa-jean",
       "url": "WILLA-JEAN",
       "muse": "willa-jean winslow",
       "status": "sporadic",
       "link": "https://willa-jean.tumblr.com",
-      "last_active": "2026-11-07"
+      "last_active": "2026-10-25"
     },
     {
       "id": "iconik",
@@ -57,7 +65,7 @@
       "muse": "denali delacruz",
       "status": "sporadic",
       "link": "https://iconik.tumblr.com",
-      "last_active": "2026-11-07"
+      "last_active": "2026-10-23"
     },
     {
       "id": "ensane",
@@ -141,12 +149,13 @@
       "corpsight": 5,
       "godbrks": 1,
       "forgde": 4,
-      "willa-jean": 13,
+      "willa-jean": 12,
       "ensane": 7,
-      "iconik": 8,
+      "iconik": 7,
       "gospul": 3,
-      "erotyik": 11,
-      "ekspose": 3
+      "erotyik": 13,
+      "ekspose": 3,
+      "mazeys": 1
     },
     "history": {
       "2026-08-31": [
@@ -266,8 +275,8 @@
         "erotyik"
       ],
       "2026-11-07": [
-        "willa-jean",
-        "iconik"
+        "erotyik",
+        "mazeys"
       ]
     }
   }
