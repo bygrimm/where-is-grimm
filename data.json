@@ -1,5 +1,9 @@
 {
-  "active": [],
+  "active": [
+    "erotyik",
+    "ensane",
+    "godbrks"
+  ],
   "date": "NOVEMBER 13 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
@@ -30,7 +34,7 @@
       "muse": "juniper castro",
       "status": "high",
       "link": "https://www.tumblr.com/erotiyk",
-      "last_active": "2026-11-11"
+      "last_active": "2026-11-13"
     },
     {
       "id": "ensane",
@@ -38,7 +42,7 @@
       "muse": "oc multimuse",
       "status": "building",
       "link": "https://ensane.tumblr.com",
-      "last_active": "2026-11-11",
+      "last_active": "2026-11-13",
       "header_name": "the multimuse"
     },
     {
@@ -71,7 +75,7 @@
       "muse": "wells stutler",
       "status": "slow",
       "link": "https://godbrks.tumblr.com",
-      "last_active": "2026-09-02"
+      "last_active": "2026-11-13"
     },
     {
       "id": "mazeys",
@@ -118,14 +122,14 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 32,
+    "total_days_recorded": 33,
     "blog_active_days": {
-      "erotyik": 14,
-      "ensane": 8,
+      "erotyik": 15,
+      "ensane": 9,
       "willa-jean": 12,
       "gospul": 3,
       "iconik": 7,
-      "godbrks": 1,
+      "godbrks": 2,
       "mazeys": 1,
       "corpsight": 5
     },
@@ -244,6 +248,11 @@
       "2026-11-11": [
         "erotyik",
         "ensane"
+      ],
+      "2026-11-13": [
+        "erotyik",
+        "ensane",
+        "godbrks"
       ]
     }
   }
