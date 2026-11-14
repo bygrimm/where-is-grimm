@@ -93,29 +93,6 @@
       "link": "https://corpsight.tumblr.com",
       "last_active": "2026-09-08",
       "group": "shelf"
-    },
-    {
-      "id": "ekspose",
-      "url": "EKSPOSE",
-      "muse": "jade dubois",
-      "status": "hiatus",
-      "link": "https://ekspose.tumblr.com",
-      "last_active": "2026-10-14",
-      "group": "shelf",
-      "found_at": "ensane",
-      "found_url": "https://www.tumblr.com/ensane"
-    },
-    {
-      "id": "forgde",
-      "url": "FORGDE",
-      "muse": "finnick & ollie",
-      "status": "hiatus",
-      "group": "shelf",
-      "link": "https://forgde.tumblr.com",
-      "last_active": "2026-09-07",
-      "found_at": "ensane",
-      "found_url": "https://www.tumblr.com/ensane",
-      "moved": "MOVED TO ENSANE"
     }
   ],
   "theme": {
@@ -144,18 +121,16 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 33,
+    "total_days_recorded": 32,
     "blog_active_days": {
       "erotyik": 14,
-      "gospul": 3,
-      "mazeys": 1,
-      "willa-jean": 12,
-      "iconik": 7,
       "ensane": 8,
-      "corpsight": 5,
+      "willa-jean": 12,
+      "gospul": 3,
+      "iconik": 7,
       "godbrks": 1,
-      "ekspose": 3,
-      "forgde": 4
+      "mazeys": 1,
+      "corpsight": 5
     },
     "history": {
       "2026-08-31": [
@@ -163,8 +138,7 @@
         "godbrks"
       ],
       "2026-09-01": [
-        "corpsight",
-        "forgde"
+        "corpsight"
       ],
       "2026-09-02": [
         "corpsight"
@@ -174,15 +148,12 @@
         "corpsight"
       ],
       "2026-09-04": [
-        "forgde",
         "willa-jean"
       ],
       "2026-09-05": [
-        "forgde",
         "willa-jean"
       ],
       "2026-09-07": [
-        "forgde",
         "willa-jean"
       ],
       "2026-09-08": [
@@ -244,14 +215,9 @@
         "erotyik"
       ],
       "2026-10-12": [
-        "erotyik",
-        "ekspose"
-      ],
-      "2026-10-13": [
-        "ekspose"
+        "erotyik"
       ],
       "2026-10-14": [
-        "ekspose",
         "willa-jean"
       ],
       "2026-10-18": [
