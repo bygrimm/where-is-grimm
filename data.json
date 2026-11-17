@@ -1,10 +1,8 @@
 {
   "active": [
-    "erotyik",
-    "ensane",
     "godbrks"
   ],
-  "date": "NOVEMBER 13 . 2026",
+  "date": "NOVEMBER 17 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
     {
@@ -75,7 +73,7 @@
       "muse": "wells stutler",
       "status": "slow",
       "link": "https://godbrks.tumblr.com",
-      "last_active": "2026-11-13"
+      "last_active": "2026-11-17"
     },
     {
       "id": "mazeys",
@@ -122,14 +120,14 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 33,
+    "total_days_recorded": 34,
     "blog_active_days": {
       "erotyik": 15,
       "ensane": 9,
       "willa-jean": 12,
       "gospul": 3,
       "iconik": 7,
-      "godbrks": 2,
+      "godbrks": 3,
       "mazeys": 1,
       "corpsight": 5
     },
@@ -252,6 +250,9 @@
       "2026-11-13": [
         "erotyik",
         "ensane",
+        "godbrks"
+      ],
+      "2026-11-17": [
         "godbrks"
       ]
     }
