@@ -1,8 +1,9 @@
 {
   "active": [
+    "mazeys",
     "godbrks"
   ],
-  "date": "NOVEMBER 17 . 2026",
+  "date": "NOVEMBER 18 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
     {
@@ -33,6 +34,14 @@
       "status": "high",
       "link": "https://www.tumblr.com/erotiyk",
       "last_active": "2026-11-13"
+    },
+    {
+      "id": "mazeys",
+      "url": "MAZEYS",
+      "muse": "mazey day",
+      "status": "high",
+      "link": "https://www.tumblr.com/mazeys",
+      "last_active": "2026-11-18"
     },
     {
       "id": "ensane",
@@ -73,16 +82,7 @@
       "muse": "wells stutler",
       "status": "slow",
       "link": "https://godbrks.tumblr.com",
-      "last_active": "2026-11-17"
-    },
-    {
-      "id": "mazeys",
-      "url": "MAZEYS",
-      "muse": "mazey day",
-      "status": "in-progress",
-      "link": "https://www.tumblr.com/mazeys",
-      "last_active": "2026-11-07",
-      "group": "progress"
+      "last_active": "2026-11-18"
     },
     {
       "id": "corpsight",
@@ -120,15 +120,15 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 34,
+    "total_days_recorded": 35,
     "blog_active_days": {
       "erotyik": 15,
       "ensane": 9,
       "willa-jean": 12,
       "gospul": 3,
       "iconik": 7,
-      "godbrks": 3,
-      "mazeys": 1,
+      "godbrks": 4,
+      "mazeys": 2,
       "corpsight": 5
     },
     "history": {
@@ -253,6 +253,10 @@
         "godbrks"
       ],
       "2026-11-17": [
+        "godbrks"
+      ],
+      "2026-11-18": [
+        "mazeys",
         "godbrks"
       ]
     }
