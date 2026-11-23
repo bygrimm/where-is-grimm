@@ -1,9 +1,6 @@
 {
-  "active": [
-    "erotyik",
-    "mazeys"
-  ],
-  "date": "NOVEMBER 19 . 2026",
+  "active": [],
+  "date": "NOVEMBER 23 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
     {
@@ -28,69 +25,72 @@
   "footer_note": "updated daily — check before reaching out!",
   "blogs": [
     {
+      "id": "dytzy",
+      "url": "DYTZY",
+      "muse": "anastasia hollis",
+      "status": "high",
+      "link": "https://www.tumblr.com/dytzy",
+      "last_active": "2026-11-23"
+    },
+    {
+      "id": "wrekdt",
+      "url": "WREKDT",
+      "muse": "jonah marsden",
+      "status": "building",
+      "link": "https://www.tumblr.com/wrekdt",
+      "last_active": "2026-11-23"
+    },
+    {
       "id": "erotyik",
       "url": "EROTIYK",
       "muse": "juniper castro",
-      "status": "high",
+      "status": "sporadic",
       "link": "https://www.tumblr.com/erotiyk",
       "last_active": "2026-11-19"
     },
     {
-      "id": "mazeys",
-      "url": "MAZEYS",
-      "muse": "mazey day",
-      "status": "high",
-      "link": "https://www.tumblr.com/mazeys",
-      "last_active": "2026-11-19"
-    },
-    {
-      "id": "ensane",
-      "url": "ENSANE",
-      "muse": "oc multimuse",
-      "status": "building",
-      "link": "https://ensane.tumblr.com",
-      "last_active": "2026-11-13",
-      "header_name": "the multimuse"
-    },
-    {
       "id": "willa-jean",
       "url": "WILLA-JEAN",
-      "muse": "willa-jean winslow",
+      "muse": "willa winslow",
       "status": "sporadic",
       "link": "https://willa-jean.tumblr.com",
       "last_active": "2026-10-25"
     },
     {
-      "id": "gospul",
-      "url": "GOSPUL",
-      "muse": "cecily noväk",
-      "status": "slow",
-      "link": "https://gospul.tumblr.com",
-      "last_active": "2026-10-26"
-    },
-    {
       "id": "iconik",
       "url": "ICONIK",
       "muse": "denali delacruz",
-      "status": "slow",
+      "status": "semi-hiatus",
       "link": "https://iconik.tumblr.com",
-      "last_active": "2026-10-23"
+      "last_active": "2026-10-23",
+      "group": "shelf"
     },
     {
       "id": "godbrks",
       "url": "GODBRKS",
       "muse": "wells stutler",
-      "status": "slow",
+      "status": "semi-hiatus",
       "link": "https://godbrks.tumblr.com",
-      "last_active": "2026-11-18"
+      "last_active": "2026-11-18",
+      "group": "shelf"
     },
     {
-      "id": "corpsight",
-      "url": "CORPSIGHT",
-      "muse": "nora özgen",
-      "status": "semi-hiatus",
-      "link": "https://corpsight.tumblr.com",
-      "last_active": "2026-09-08",
+      "id": "gospul",
+      "url": "GOSPUL",
+      "muse": "cecily noväk",
+      "status": "hiatus",
+      "link": "https://gospul.tumblr.com",
+      "last_active": "2026-10-26",
+      "group": "shelf"
+    },
+    {
+      "id": "ensane",
+      "url": "ENSANE",
+      "muse": "oc multimuse",
+      "status": "hiatus",
+      "link": "https://ensane.tumblr.com",
+      "last_active": "2026-11-13",
+      "header_name": "the multimuse",
       "group": "shelf"
     }
   ],
@@ -122,14 +122,16 @@
   "stats": {
     "total_days_recorded": 36,
     "blog_active_days": {
+      "dytzy": 0,
+      "wrekdt": 0,
       "erotyik": 16,
-      "mazeys": 3,
-      "ensane": 9,
       "willa-jean": 12,
-      "gospul": 3,
       "iconik": 7,
       "godbrks": 4,
-      "corpsight": 5
+      "gospul": 3,
+      "ensane": 9,
+      "corpsight": 5,
+      "mazeys": 3
     },
     "history": {
       "2026-08-31": [
