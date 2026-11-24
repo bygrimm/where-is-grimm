@@ -3,7 +3,7 @@
     "dytzy",
     "wrekdt"
   ],
-  "date": "NOVEMBER 23 . 2026",
+  "date": "NOVEMBER 24 . 2026",
   "blog_list_label": "BLOGS",
   "groups": [
     {
@@ -33,7 +33,7 @@
       "muse": "anastasia hollis",
       "status": "high",
       "link": "https://www.tumblr.com/dytzy",
-      "last_active": "2026-11-23"
+      "last_active": "2026-11-24"
     },
     {
       "id": "wrekdt",
@@ -41,7 +41,7 @@
       "muse": "jonah marsden",
       "status": "building",
       "link": "https://www.tumblr.com/wrekdt",
-      "last_active": "2026-11-23"
+      "last_active": "2026-11-24"
     },
     {
       "id": "erotyik",
@@ -123,10 +123,10 @@
     "small_size": "0.6rem"
   },
   "stats": {
-    "total_days_recorded": 37,
+    "total_days_recorded": 38,
     "blog_active_days": {
-      "dytzy": 1,
-      "wrekdt": 1,
+      "dytzy": 2,
+      "wrekdt": 2,
       "erotyik": 16,
       "willa-jean": 12,
       "iconik": 7,
@@ -269,6 +269,10 @@
         "mazeys"
       ],
       "2026-11-23": [
+        "dytzy",
+        "wrekdt"
+      ],
+      "2026-11-24": [
         "dytzy",
         "wrekdt"
       ]
